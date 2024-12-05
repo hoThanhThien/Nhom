@@ -1,0 +1,56 @@
+/* Định dạng chung */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    z-index: 1000;
+    padding: 10px 0;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    margin: 0 15px;
+}
+
+.menu-link {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 5px 10px;
+}
+
+.menu-link.active {
+    color: #f2b93d; /* Màu vàng để highlight */
+    border-bottom: 2px solid #f2b93d;
+}
+
+.content-section {
+    height: 100vh; /* Mỗi phần sẽ chiếm 100% chiều cao màn hình */
+    padding: 50px 20px;
+    margin-top: 50px; /* Tránh bị che bởi menu cố định */
+}
+
+#section1 {
+    background-color: #f9f9f9;
+}
+
+#section2 {
+    background-color: #e8e8e8;
+}
+
+#section3 {
+    background-color: #dcdcdc;
+}
